@@ -22,7 +22,8 @@
     </head>
     <body>
 <!-- This example requires Tailwind CSS v2.0+ -->
-        @include('hero-banner')
+        @include('navbar-dio')
+        @include('hero-dio')
         <div class="bg-gray-100 py-2 mt-5">
             @include('feature-section')
         </div>
